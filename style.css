@@ -2,5 +2,101 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 188, 209);
+    /*background-color: rgb(0, 188, 209);*/
 }
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 300px;
+}
+
+.subNav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    /*background-color: blanchedalmond;*/
+}
+
+.subNav .links{
+    justify-content: space-evenly;
+}
+
+.subNav .links a{
+    text-decoration: none;
+    margin-right: 15px;
+    color:rgb(126, 119, 119);
+   
+}
+
+
+.subNav .icons{
+    justify-content: space-evenly;
+}
+.subNav .icons img{
+    margin-left: 10px;
+    width:20px;
+    height: 20px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    /*margin: 10px;*/
+    /*background-color: deeppink;*/
+}
+
+.main .heroImg img{
+    width: 600px;
+    /*margin-right: 800px;*/
+}
+
+.main .heroTxt{
+    width: 40%;
+    margin-bottom: 70px;
+    /*background-color:blue;*/
+    
+}
+
+.heroTxt .h1{
+    margin: 2px;
+    
+}
+
+.heroTxt .p{
+    width:100px;
+    gap: 30%;
+}
+
+
+.footer .cards p{
+    width:300px;
+}
+
+.footer .cards{
+    display:flex;
+    justify-content: space-evenly;
+    gap:90px;
+    /*padding: 10px;*/
+    
+}
+
+ .footer .cards .cd {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+
+
+
+
+
