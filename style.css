@@ -1,3 +1,10 @@
+*{
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -56,21 +63,36 @@
     /*margin-right: 800px;*/
 }
 
-.main .heroTxt{
+.heroTxt{
     width: 40%;
-    margin-bottom: 70px;
-    /*background-color:blue;*/
+   margin-bottom: 70px;
+    /*background-color:pink;*/
     
 }
 
-.heroTxt .h1{
-    margin: 2px;
-    
+.heroTxt p{
+    width:130%;
+    gap: 40%;
 }
 
-.heroTxt .p{
-    width:100px;
-    gap: 30%;
+
+
+.mini p{
+    color: #f2ac1c;
+}
+
+.main .button{
+    background-color: #f2ac1c;
+    padding: 10px 40px;
+    border: none;
+    color:white;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+}
+
+.footer h1{
+    font-weight: normal;
 }
 
 
@@ -93,8 +115,25 @@
     padding: 20px;
     margin: 10px;
     width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
+.cards .cd h2{
+    color: #f2ac1c;
+}
+
+
+.cards .button{
+    background-color: #f2ac1c;
+    padding:10px 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+}
 
 
 
